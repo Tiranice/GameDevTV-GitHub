@@ -15,6 +15,8 @@ public class TurretRotation : MonoBehaviour
     private void Start()
     {
         _lineRenderer.positionCount = 2;
+        _lineRenderer.startWidth = 0.0075f;
+        _lineRenderer.endWidth = 0.0075f;
     }
 
     private void Update()
