@@ -168,7 +168,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!108 &155660206
 Light:
@@ -531,7 +531,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!33 &1966275287
 MeshFilter:
@@ -616,6 +616,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1418605135, guid: 954d797a62884b84cbc2a8e9f3bd2b48, type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 1532706902}
     - target: {fileID: 1418605135, guid: 954d797a62884b84cbc2a8e9f3bd2b48, type: 3}
       propertyPath: _trarget
       value: 
